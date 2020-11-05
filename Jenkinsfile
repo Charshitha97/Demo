@@ -1,20 +1,7 @@
-pipeline {
-    agent any
-    stages {
-        stage('build') {
-            steps {
-                echo 'building app'
-            }
-        }
-        stage('test') {
-            steps {
-                echo 'testing World'
-            }
-        }
-        stage('deploy') {
-            steps {
-                echo 'deploying World'
-            }
-        }
-     }
-   }
+hungry=input("are you hungry")
+if hungry=="yes":
+  print("eat something")
+  print("drink water")
+  print("eat biriyani")
+ else:
+  print("dont eat")
